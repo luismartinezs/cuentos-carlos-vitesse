@@ -1,8 +1,19 @@
-<script setup lang="ts">
+<script>
+import { useRouter } from 'vue-router'
 import PapaNoel from '../../posts/papa-noel.md'
+
+export default {
+  components: {
+    PapaNoel,
+  },
+  setup() {
+    const router = useRouter()
+    return { router }
+  },
+}
 // import { useUserStore } from '~/stores/user'
 
-// const props = defineProps<{ name: string }>()
+// const props = defineProps<{ title: string }>()
 // const router = useRouter()
 // const user = useUserStore()
 // const { t } = useI18n()
@@ -16,11 +27,8 @@ import PapaNoel from '../../posts/papa-noel.md'
   <div>
     <PapaNoel />
     <div>
-      <button
-        class="btn m-3 text-sm mt-6"
-        @click="router.back()"
-      >
-        {{ t('button.back') }}
+      <button class="btn m-3 text-sm mt-6" @click="router.back()">
+        Volver
       </button>
     </div>
   </div>
