@@ -49,4 +49,4 @@ MOZART. SONATA PARA PIAN0 SOLO KWW 332 2º MOV. ADAGIO.
 
 PARA ADRIANA, DE CARLOS.
 
-Pdta.: En mis escritos no hay límites entre lo ordinario y lo estra-ordinario. Todo existe al mismo tiempo. Los límites son una creacion mental.
+Pdta.: En mis escritos no hay límites entre lo *ordinario* y lo *extra-ordinario*. Todo existe al mismo tiempo. Los límites son una creacion mental.
